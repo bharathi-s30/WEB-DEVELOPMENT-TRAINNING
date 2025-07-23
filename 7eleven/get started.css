@@ -1,0 +1,57 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Get Started Section */
+.get-started {
+  background: linear-gradient(to right, #00bfff, #007bff);
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.get-started .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.get-started h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.get-started p {
+  font-size: 18px;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.btn.primary {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #fff;
+  color: #007bff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.btn.primary:hover {
+  background-color: #e6e6e6;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .get-started h2 {
+    font-size: 24px;
+  }
+
+  .get-started p {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,60 @@
+/* Purchase Button Page Styling */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f9ff;
+  color: #333;
+}
+
+.purchase-container {
+  max-width: 600px;
+  margin: 100px auto;
+  text-align: center;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 170, 255, 0.1);
+}
+
+.purchase-container h1 {
+  color: #00aaff;
+  margin-bottom: 15px;
+}
+
+.purchase-container p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.purchase-btn {
+  background-color: #00aaff;
+  color: white;
+  padding: 12px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 170, 255, 0.3);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.purchase-btn:hover {
+  background-color: #008ecc;
+  transform: translateY(-2px);
+}
+
+/* Mobile Responsive */
+@media (max-width: 500px) {
+  .purchase-container {
+    margin: 50px 20px;
+    padding: 20px;
+  }
+
+  .purchase-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
